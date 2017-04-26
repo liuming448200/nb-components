@@ -11,7 +11,7 @@
 		transEnd:'webkitTransitionEnd'
 	};
 	
-	var mobileGesture = function(selector,moveFun,endFun,lock,transEnd){
+	var nbMobileGesture = function(selector,moveFun,endFun,lock,transEnd){
 		var self = this;
 		var max = 50;
 		self.Max = {X:max,Y:max};
@@ -39,7 +39,7 @@
 		return self;
 	}
 
-	mobileGesture.prototype = {
+	nbMobileGesture.prototype = {
 		handleEvent: function(event) {
 			var self = this;
 			
@@ -163,4 +163,4 @@
 		return $support.touch ? event.changedTouches[0][page] : event[page];
 	}
 
-	module.exports = mobileGesture;
+	module.exports = nbMobileGesture;

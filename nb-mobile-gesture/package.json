@@ -1,0 +1,20 @@
+{
+  "name": "nb-mobile-gesture",
+  "version": "1.0.0",
+  "description": "移动端模拟手势事件",
+  "main": "nb-mobile-gesture.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/liuming448200/nb-components.git"
+  },
+  "keywords": [
+    "mobile",
+    "gesture"
+  ],
+  "author": "liuming",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/liuming448200/nb-components/issues"
+  },
+  "homepage": "https://github.com/liuming448200/nb-components#readme"
+}
