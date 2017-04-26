@@ -1,0 +1,20 @@
+{
+  "name": "nb-mobile-slide",
+  "version": "1.0.0",
+  "description": "移动端模拟滑动事件",
+  "main": "nb-mobile-slide.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/liuming448200/nb-components.git"
+  },
+  "keywords": [
+    "mobile",
+    "slide"
+  ],
+  "author": "liuming",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/liuming448200/nb-components/issues"
+  },
+  "homepage": "https://github.com/liuming448200/nb-components#readme"
+}
