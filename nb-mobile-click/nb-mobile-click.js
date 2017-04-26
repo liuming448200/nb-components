@@ -11,7 +11,7 @@ var $E = {
 	transEnd:'webkitTransitionEnd'
 };
 
-var mobileClick = function(selector,clickFun,css){
+var nbMobileClick = function(selector,clickFun,css){
 	var self = this;
 	self._clickFun = clickFun || null;
 	self._click=false;
@@ -35,7 +35,7 @@ var mobileClick = function(selector,clickFun,css){
 	return self;
 }
 
-mobileClick.prototype = {
+nbMobileClick.prototype = {
 	handleEvent: function(event) {
 		var self = this;
 		switch (event.type) {
@@ -134,4 +134,4 @@ function getPage (event, page) {
 	return $support.touch ? event.changedTouches[0][page] : event[page];
 }
 
-module.exports = mobileClick;
+module.exports = nbMobileClick;
