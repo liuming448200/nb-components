@@ -1,6 +1,6 @@
 {
   "name": "nb-mobile-click",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "移动端模拟点击事件",
   "main": "nb-mobile-click.js",
   "repository": {

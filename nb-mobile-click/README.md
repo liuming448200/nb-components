@@ -29,7 +29,7 @@ var nbMobileClick = require('nb-mobile-click');
 var clickHandler = new nbMobileClick(selector, clickFun, css);
 
 * selector：DOM对象或者标识DOM节点的ID字符串
-* clickFun：点击后的回调函数
+* clickFun(dom)：点击后的回调函数，输入参数dom表示selector对应的DOM对象
 * css：DOM节点按下时的CSS字符串
 
 ```
