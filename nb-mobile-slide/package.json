@@ -1,6 +1,6 @@
 {
   "name": "nb-mobile-slide",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "移动端模拟滑动事件",
   "main": "nb-mobile-slide.js",
   "repository": {
