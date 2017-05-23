@@ -133,5 +133,3 @@ nbMobileClick.prototype = {
 function getPage (event, page) {
 	return $support.touch ? event.changedTouches[0][page] : event[page];
 }
-
-module.exports = nbMobileClick;

@@ -1,6 +1,6 @@
 {
   "name": "nb-mobile-gesture",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "移动端处理手势事件",
   "main": "nb-mobile-gesture.js",
   "repository": {
